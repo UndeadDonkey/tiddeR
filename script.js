@@ -8,7 +8,7 @@ $(".logout").hide();
 
 var username = ["yeet"];
 var password = ["ppp"];
-var currentUser = "ssss";
+var currentUser = "";
     
 $(".loginButton").click(function(){
    var u = $(".uInput").val();
