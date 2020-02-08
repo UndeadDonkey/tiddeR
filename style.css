@@ -1,0 +1,174 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  padding: 25px;
+  background-image: linear-gradient(to bottom right, #5c6fff,#333399);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  border-style: solid;
+  border-width: 2px;
+  padding: 7px;
+  background-color: white;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+}
+
+.searchBar {
+  margin-right: 0px;
+  height: 40px;
+}
+
+.searchButton {
+  margin-left: 0px;
+  height: 47px;
+}
+
+h1 {
+  margin-top: 0px;
+}
+
+#title {
+  font-style: italic;
+  color: white;
+  display:flex;
+  justify-content:center;
+  margin-right: 5px;
+  background-color: #373fff;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#holder {
+  display: flex;
+  justify-content:space-between;
+}
+
+#categories {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  border-style: solid;
+  border-width: 2px;
+  background-color: white
+}
+
+#category1 {
+  color: white;
+  background-color: #373fff;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#category2 {
+  color: white;
+  background-color: #373fff;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#category3 {
+  color: white;
+  background-color: #373fff;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#category4 {
+  color: white;
+  background-color: #373fff;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#category5 {
+  color: white;
+  background-color: #373fff;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+#category6 {
+  color: white;
+  background-color: #373fff;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#allPosts {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  border-width: 2px;
+  padding: 10px;
+  background-color: white;
+}
+
+#articles {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border-style: solid;
+  border-width: 2px;
+  padding: 5px;
+  background-color: white
+}
+
+.articlepics {
+  height: 200px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+#post {
+  height: 35px;
+}
+
+.postButton {
+  height: 35px;
+  width: 100px;
+}
+
+.text {
+  margin-left:15px;
+}
+
+.fas {
+  color:white;
+  
+}
+
+input {
+  outline:none;
+}
+
+button {
+  cursor: pointer;
+}
+
+#reacions {
+  display:flex; 
+  flex-direction:row; 
+  width:60px;
+  justify-content:space-between;
+}
+
+.alloptions {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
